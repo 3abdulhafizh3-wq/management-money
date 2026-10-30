@@ -4,6 +4,7 @@
   "description": "Financial Management Backend API",
   "author": "",
   "private": true,
+  "type": "module",
   "license": "UNLICENSED",
   "scripts": {
     "build": "prisma generate && nest build",

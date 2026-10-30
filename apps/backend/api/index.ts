@@ -1,5 +1,6 @@
+import 'reflect-metadata';
 import { NestFactory } from '@nestjs/core';
-import { AppModule } from '../src/app.module.js';
+import { AppModule } from '../dist/app.module.js';
 
 let appInstance: any;
 
